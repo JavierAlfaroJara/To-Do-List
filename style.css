@@ -34,7 +34,7 @@
 }
 
 .todo-app h2 img{
-    margin: 35px;
+    margin: 15px;
 }
 
 .todo-app:hover{
@@ -49,6 +49,22 @@
     border-radius: 10px;
     padding-left: 20px;
     margin-bottom: 25px;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px){
+    .row{
+        padding-left: 0px;
+        flex-direction: column;
+    }
+
+    input{
+        padding-left: 20px;
+    }
+
+    button{
+        width: 100%;
+    }
 }
 
 /* Styling for "Add Task" input */
